@@ -94,6 +94,12 @@ footer {
   background-color: #e7f3e9;
   padding: 2vh 15vw;
 }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-self: center;
+}
 h1 {
   font-family: "DM Sans", sans-serif;
   font-size: 2.2em;
@@ -149,4 +155,39 @@ p {
   border: none;
   color: white;
   background-color: #1dac9b;
+}
+
+/* Ajoutez ce code à votre fichier CSS */
+
+/* Styles par défaut pour la section 2 */
+#section2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section2 .gauche {
+  width: 50%;
+}
+
+#section2 img {
+  width: 50%;
+  height: auto;
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 600px) {
+  #section2 {
+    display: block;
+    text-align: center;
+  }
+
+  #section2 .gauche {
+    width: 100%;
+    margin-bottom: 20px; /* Ajout d'un espace entre le texte et l'image */
+  }
+
+  #section2 img {
+    width: 100%;
+    height: auto;
+  }
 }
