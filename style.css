@@ -31,6 +31,7 @@ header {
   align-items: center;
   background-color: #e7f3e9;
   transition: box-shadow 0.3s;
+  z-index: 1;
 }
 
 .header-shadow {
