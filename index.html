@@ -3,22 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style.css" />
     <title>Accueil</title>
   </head>
   <body>
-    <header>
+    <header id="main-header">
       <div class="navbar">
-        <a href="/"><img src="" alt="Logo Amar" /></a>
+        <a href="/"><img src="assets/asset 0.png" alt="Logo Amar" /></a>
         <nav>
           <ul>
-            <li><a href="/">Accueil</a></li>
+            <li>
+              <a
+                style="text-decoration: underline; color: rgb(29, 172, 155)"
+                href="/"
+                >Accueil</a
+              >
+            </li>
             <li><a href="a-propos.html">A propos</a></li>
             <li><a href="le-projet.html">Le projet</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <div class="dropdown-container">
+              <label hidden for="language-selector">Choose a language:</label>
+              <select id="language-selector">
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+              </select>
+            </div>
           </ul>
         </nav>
       </div>
     </header>
+    <section id="section1">
+      <h1>Ensemble pour la mobilité des enfants avec un handicap moteur</h1>
+      <img
+        src="/assets/asset 1.jpeg"
+        alt="Children with mobility issues playing together"
+      />
+    </section>
+    <section id="section2">
+      <h2>Notre raison d'être</h2>
+      <p>
+        L'association a pour but de sensibiliser et de faciliter la mobilité,
+        l'accessibilité et la réhabilitation pour les personnes en situation de
+        handicap. Elle aspire à améliorer leur qualité de vie en leur permettant
+        d'accéder à des équipements adaptés. L'objectif de A.M.A.R. est de créer
+        un environnement inclusif où chaque personne a la possibilité de vivre
+        et de s'épanouir pleinement dans la société.
+      </p>
+    </section>
+    <section id="section3">
+      <h2>Que fait A.M.A.R ?</h2>
+
+      <div class="gauche">
+        <img src="/assets/asset 7.png" alt="" />
+        <p>
+          Des enfants, ayant un handicap moteur, bénéficient d'appareillages
+          selon leurs besoins.
+        </p>
+        <p>
+          Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
+          l'ancien appareillage, encore en bon état, ne se réutilise pas et il
+          finit la plupart du temps à la déchetterie.
+        </p>
+      </div>
+      <div class="droite">
+        <img src="/assets/asset 8.png" alt="" />
+        <p>
+          Le but de l’association A.M.A.R est de récupérer ces appareillages
+          afin de faire donation à un maximum d’enfants...
+        </p>
+        <p>
+          Tout le matériel est suivi et quand ces enfants grandiront, ils les
+          redonneront à leur tour pour être réutilisés autant de fois que
+          possible.
+        </p>
+        <p>
+          La vie, la santé et le confort de milliers d’enfants sera ainsi
+          amélioré !
+        </p>
+      </div>
+    </section>
+    <section>
+      <h2>Soutenez-les</h2>
+      <p>Vous voulez faire partie de l'aventure ?</p>
+      <button>Faire un Don</button>
+    </section>
+    <script src="/script.js"></script>
+    <footer>
+        <div class="footer">
+            
+        </div>
+    </footer>
   </body>
 </html>

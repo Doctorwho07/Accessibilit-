@@ -2,58 +2,82 @@
   margin: 0;
   padding: 0;
   font-size: 20px;
+  font-family: "DM Sans", sans-serif;
 }
-a {
+
+a,
+select {
   text-decoration: none;
+  color: #5c2483;
+  font-weight: 300;
+  font-size: 16px;
+  text-wrap: nowrap;
 }
+
+a:hover {
+  color: rgb(29, 172, 155);
+  text-decoration: underline;
+}
+
 header img {
   margin-right: 20px;
   margin-left: 20px;
+  width: 112px;
+  height: 92px;
 }
+
 header {
-  padding: 3%;
+  position: fixed;
+  width: 100vw;
+  padding: 1% 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #e7f3e9;
+  transition: box-shadow 0.3s;
+}
+
+.header-shadow {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
+
 .navbar {
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
+
 ul {
   display: flex;
   list-style-type: none;
 }
-li {
-  margin-right: 20px;
-  margin-left: 20px;
+
+li,
+.dropdown-container {
+  margin-right: 64px;
+  margin-left: 64px;
 }
-:root {
-  --color-meteorite-dark: #2f1c6a;
-  --color-meteorite: #8c85ff;
-  --color-meteorite-light: #d5dfff;
-  --color-primary-dark: #5025d1;
-  --color-primary: #673de6;
-  --color-primary-light: #ebe4ff;
-  --color-danger-dark: #d63163;
-  --color-danger: #fc5185;
-  --color-danger-light: #ffe8ef;
-  --color-warning-dark: #fea419;
-  --color-warning: #ffcd35;
-  --color-warning-light: #fff8e2;
-  --color-success-dark: #008361;
-  --color-success: #00b090;
-  --color-success-light: #def4f0;
-  --color-dark: #1d1e20;
-  --color-gray-dark: #36344d;
-  --color-gray: #727586;
-  --color-gray-border: #dadce0;
-  --color-gray-light: #f2f3f6;
-  --color-light: #fff;
-  --color-azure: #357df9;
-  --color-azure-light: #e3ebf9;
-  --color-azure-dark: #265ab2;
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+select {
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: #e7f3e9;
+}
+
+#section1 {
+  background-color: #e7f3e9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
