@@ -197,3 +197,54 @@ p {
     text-align: center;
   }
 }
+
+/* Styles for burger menu */
+.burger-menu {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+}
+
+@media (max-width: 1400px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e7f3e9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links ul li {
+    margin: 16px 0;
+    text-align: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

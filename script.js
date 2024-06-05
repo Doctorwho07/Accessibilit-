@@ -6,3 +6,11 @@ window.addEventListener("scroll", function () {
     header.classList.add("header-shadow");
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const burgerMenu = document.querySelector(".burger-menu");
+  const navLinks = document.querySelector(".nav-links");
+
+  burgerMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+});
