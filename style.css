@@ -194,4 +194,8 @@ p {
     width: 100%;
     height: auto;
   }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
