@@ -1,0 +1,14 @@
+footer {
+  padding: 1% 15vw;
+  background-color: #e7f3e9;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-self: center;
+}
+.footer p {
+  display: flex;
+  align-items: center;
+}
