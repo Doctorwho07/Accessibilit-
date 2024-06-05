@@ -191,6 +191,8 @@ p {
   }
   .footer {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
