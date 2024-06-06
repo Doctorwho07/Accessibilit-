@@ -9,15 +9,21 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/a-propos.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/mobile.css" />
+    <link rel="stylesheet" href="/css/a-propos.css" />
     <title>Accueil</title>
   </head>
   <body>
     <header id="main-header">
+      <a href="/"><img src="assets/icon-logo.png" alt="Logo Amar" /></a>
       <div class="navbar">
-        <a href="/"><img src="assets/icon-logo.png" alt="Logo Amar" /></a>
-        <nav>
+        <button class="burger-menu" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <nav class="nav-links">
           <ul>
             <li><a href="/">Accueil</a></li>
             <li><a style="text-decoration: underline; color: rgb(29, 172, 155)" href="a-propos.html">A propos</a></li>
@@ -142,9 +148,16 @@
     </section>
     <script src="/script.js"></script>
     <footer>
-        <div class="footer">
-            
+      <div class="footer">
+        <div class="gauche-footer">
+          <img src="/assets/icon-logo.png" alt="" />
+          <p>
+            Association pour la Mobilité, l'Accessibilité et la Réhabilitation
+          </p>
         </div>
+
+        <p>contact@amar-handicap.org</p>
+      </div>
     </footer>
   </body>
 </html>
