@@ -17,7 +17,7 @@ img {
 
 #section1 {
   background-color: #e7f3e9;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,13 +30,7 @@ img {
 #section3 {
   background-color: #e7f3e9;
 }
-#section4 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 h1 {
   font-family: "DM Sans", sans-serif;
   font-size: 2.2em;
@@ -100,20 +94,7 @@ p {
   font-size: 0.9em;
   line-height: 1.5em;
 }
-#section4 p {
-  color: black;
-  text-align: center;
-}
-#section4 button {
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  font-weight: thin;
-  padding: 1% 2%;
-  border-radius: 10px;
-  border: none;
-  color: white;
-  background-color: #1dac9b;
-}
+
 #section2 {
   display: flex;
   flex-wrap: wrap;

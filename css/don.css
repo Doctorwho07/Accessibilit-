@@ -1,0 +1,26 @@
+#section4 p {
+  color: white;
+  text-align: center;
+}
+#section4 button {
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  font-weight: thin;
+  padding: 1% 2%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #5c2483;
+  background-color: white;
+}
+#section4 {
+  background-color: #1dac9b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section4 button:hover {
+  background-color: #5c2483;
+  color: white;
+}

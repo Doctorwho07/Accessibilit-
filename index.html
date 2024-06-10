@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/mobile.css" />
+    <link rel="stylesheet" href="/css/don.css" />
     <title>Accueil</title>
   </head>
   <body>
@@ -35,8 +36,10 @@
             <li><a href="le-projet.html">Le projet</a></li>
             <li><a href="contact.html">Contact</a></li>
             <div class="dropdown-container">
-              <label hidden for="language-selector">Choisir une langue:</label>
-              <select id="language-selector">
+              <select
+                id="language-selector"
+                aria-label="Choisir une langue avec la touche espace:"
+              >
                 <option value="fr">Français</option>
                 <option value="en">English</option>
                 <option value="es">Español</option>
@@ -136,7 +139,9 @@
         <div class="r">
           <a href="">Accessibilité</a>
           <a href="">Mentions légales</a>
-          <a href="mailto:contact@amar-handicap.org"
+          <a
+            aria-label="Cliquez pour écrire un mail"
+            href="mailto:contact@amar-handicap.org"
             >contact@amar-handicap.org</a
           >
         </div>
