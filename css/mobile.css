@@ -76,4 +76,50 @@
   .gauche-footer p {
     font-size: small;
   }
+
+#about {
+    padding: 10vh 5vw !important;
+    grid-template-columns: 1fr !important;
+}
+
+#about h1 {
+    padding-top: 10vh !important;
+    font-size: 48px !important;
+}
+
+#about p {
+    padding-right: 0;
+}
+
+#about .img img {
+    width: 80% !important;
+}
+
+#goal-header {
+    padding: 0 !important;
+}
+
+#contain-goals {
+    grid-template-columns: 1fr !important;
+}
+
+#goals {
+    padding: 10vh 5vw !important;
+}
+
+#goals h2 {
+    font-size: 42px !important;
+}
+
+#goals h3 {
+    font-size: 20px !important;
+}
+
+#goals p {
+    font-size: 16px !important;
+}
+
+#donate {
+    padding: 10vh 5vw !important;
+}
 }
