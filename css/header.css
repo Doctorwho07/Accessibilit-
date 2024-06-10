@@ -4,6 +4,7 @@ header img {
 }
 
 header {
+  padding: 10px 15vw;
   width: 100vw;
   height: 10vh;
   position: fixed;

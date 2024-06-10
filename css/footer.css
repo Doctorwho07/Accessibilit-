@@ -8,7 +8,12 @@ footer {
   text-align: center;
   align-self: center;
 }
-.footer p {
+.footer a {
+  height: fit-content;
+}
+.footer .r {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }

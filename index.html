@@ -35,7 +35,7 @@
             <li><a href="le-projet.html">Le projet</a></li>
             <li><a href="contact.html">Contact</a></li>
             <div class="dropdown-container">
-              <label hidden for="language-selector">Choose a language:</label>
+              <label hidden for="language-selector">Choisir une langue:</label>
               <select id="language-selector">
                 <option value="fr">Français</option>
                 <option value="en">English</option>
@@ -50,61 +50,82 @@
       <h1>Ensemble pour la mobilité des enfants avec un handicap moteur</h1>
       <img
         src="/assets/logo-big.jpeg"
-        alt="Children with mobility issues playing together"
+        alt="Logo ensemble pour la mobilité des enfants avec un handicap moteur"
         style="width: 100%"
       />
     </section>
     <section id="section2">
-      <div class="gauche">
-        <h2>Notre raison d'être</h2>
-        <p>
-          L'association a pour but de sensibiliser et de faciliter la mobilité,
-          l'accessibilité et la réhabilitation pour les personnes en situation
-          de handicap.<br /><br />
-          Elle aspire à améliorer leur qualité de vie en leur permettant
-          d'accéder à des équipements adaptés.<br /><br />
-          L'objectif de A.M.A.R. est de créer un environnement inclusif où
-          chaque personne a la possibilité de vivre et de s'épanouir pleinement
-          dans la société.
-        </p>
+      <h2>Notre raison d'être</h2>
+      <div class="center">
+        <div class="p">
+          <p>
+            L'association a pour but de sensibiliser et de faciliter la
+            mobilité, l'accessibilité et la réhabilitation pour les personnes en
+            situation de handicap.
+          </p>
+          <p>
+            Elle aspire à améliorer leur qualité de vie en leur permettant
+            d'accéder à des équipements adaptés.
+          </p>
+          <p>
+            L'objectif de A.M.A.R. est de créer un environnement inclusif où
+            chaque personne a la possibilité de vivre et de s'épanouir
+            pleinement dans la société.
+          </p>
+        </div>
+
+        <img src="/assets/hands-butterfly.png" alt="" />
       </div>
-      <img src="/assets/hands-butterfly.png" alt="" />
     </section>
     <section id="section3">
       <h2>Que fait A.M.A.R ?</h2>
-
-      <div class="gauche">
-        <img src="/assets/verticalisateur-small.png" alt="" />
-        <p>
-          Des enfants, ayant un handicap moteur, bénéficient d'appareillages
-          selon leurs besoins. <br /><br />
-          Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
-          l'ancien appareillage, encore en bon état, ne se réutilise pas et il
-          finit la plupart du temps à la déchetterie.
-        </p>
-      </div>
-      <div class="droite">
-        <p>
-          Le but de l’association A.M.A.R est de récupérer ces appareillages
-          afin de faire donation à un maximum d’enfants...
-          <br /><br />
-          Tout le matériel est suivi et quand ces enfants grandiront, ils les
-          redonneront à leur tour pour être réutilisés autant de fois que
-          possible.
-          <br /><br />
-          La vie, la santé et le confort de milliers d’enfants sera ainsi
-          amélioré !
-        </p>
-        <img src="/assets/fauteuil-small.png" alt="" />
+      <div class="center">
+        <div class="parent">
+          <div class="div1">
+            <img src="/assets/verticalisateur-small.png" alt="" />
+          </div>
+          <div class="div2">
+            <p>
+              Des enfants, ayant un handicap moteur, bénéficient d'appareillages
+              selon leurs besoins.
+            </p>
+            <p>
+              Lorsque arrive le moment de changer, environ tous les 2 ou 3 ans,
+              l'ancien appareillage, encore en bon état, ne se réutilise pas et
+              il finit la plupart du temps à la déchetterie.
+            </p>
+          </div>
+          <div class="div4">
+            <p>
+              Le but de l’association A.M.A.R est de récupérer ces appareillages
+              afin de faire donation à un maximum d’enfants...
+            </p>
+            <p>
+              Tout le matériel est suivi et quand ces enfants grandiront, ils
+              les redonneront à leur tour pour être réutilisés autant de fois
+              que possible.
+            </p>
+            <p>
+              La vie, la santé et le confort de milliers d’enfants sera ainsi
+              amélioré !
+            </p>
+          </div>
+          <div class="div3">
+            <img src="/assets/fauteuil-small.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
     <section id="section4">
       <h2>Soutenez-les</h2>
       <p>Vous voulez faire partie de l'aventure ?</p>
-      <button>Faire un Don</button>
+      <button aria-label="Cliquez ici pour faire un don">Faire un Don</button>
     </section>
     <script src="/script.js"></script>
-    <footer>
+    <footer role="contentinfo" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="visually-hidden" style="display: none">
+        Pied de page
+      </h2>
       <div class="footer">
         <div class="gauche-footer">
           <img src="/assets/icon-logo.png" alt="" />
@@ -112,8 +133,13 @@
             Association pour la Mobilité, l'Accessibilité et la Réhabilitation
           </p>
         </div>
-
-        <p><s>contact@amar-handicap.org</s>contact@amar-handicap.org</p>
+        <div class="r">
+          <a href="">Accessibilité</a>
+          <a href="">Mentions légales</a>
+          <a href="mailto:contact@amar-handicap.org"
+            >contact@amar-handicap.org</a
+          >
+        </div>
       </div>
     </footer>
   </body>
