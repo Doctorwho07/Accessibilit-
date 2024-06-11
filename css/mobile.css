@@ -1,0 +1,125 @@
+@media (max-width: 1400px) {
+  #main-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0;
+  }
+  #main-header img {
+    width: 80px;
+    height: 60px;
+  }
+  .burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #e7f3e9;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links ul li {
+    margin: 16px 0;
+    text-align: center;
+  }
+  #section1 {
+    height: 80vh;
+  }
+  #section2 {
+    display: block;
+    text-align: center;
+  }
+
+  #section2 .gauche {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #section2 img {
+    width: 100%;
+    height: auto;
+  }
+  #section4 button {
+    padding: 3% 5%;
+  }
+  .footer {
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer img {
+    width: 80px;
+    height: 60px;
+  }
+
+  .gauche-footer {
+    display: flex;
+    width: 100%;
+  }
+  .gauche-footer p {
+    font-size: small;
+  }
+
+#about {
+    padding: 10vh 5vw !important;
+    grid-template-columns: 1fr !important;
+}
+
+#about h1 {
+    padding-top: 10vh !important;
+    font-size: 48px !important;
+}
+
+#about p {
+    padding-right: 0;
+}
+
+#about .img img {
+    width: 80% !important;
+}
+
+#goal-header {
+    padding: 0 !important;
+}
+
+#contain-goals {
+    grid-template-columns: 1fr !important;
+}
+
+#goals {
+    padding: 10vh 5vw !important;
+}
+
+#goals h2 {
+    font-size: 42px !important;
+}
+
+#goals h3 {
+    font-size: 20px !important;
+}
+
+#goals p {
+    font-size: 16px !important;
+}
+
+#donate {
+    padding: 10vh 5vw !important;
+}
+}
