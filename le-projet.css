@@ -69,8 +69,9 @@ select {
 }
 
 #section1 {
+  padding-top: 500px;
   background-color: #e7f3e9;
-  height: 100vh;
+  height: 107vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,3 +151,54 @@ p {
   color: white;
   background-color: #1dac9b;
 }
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centrer les éléments verticalement */
+}
+
+.title > div {
+  flex: 1 0 50%; /* Cela signifie que cet élément occupera 50% de l'espace disponible */
+}
+
+.title > span {
+  
+  margin-left: auto; /* Cela signifie que cet élément occupera 50% de l'espace disponible */
+}
+
+.title > span > strong {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images img {
+  width: 200px;
+  height: auto;
+  margin: 50px;
+}
+
+.sectiongrid {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.sectiongrid h5 {
+  font-size: 3em;
+}
+
+.sectiongrid h6 {
+  font-size: 1.2em;
+}
+
+.sectiongrid p {
+  font-size: 14px;
+}
+
