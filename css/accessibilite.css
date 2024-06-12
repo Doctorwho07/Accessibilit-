@@ -50,6 +50,7 @@ body {
 #section1 a {
   color: #006400;
   text-decoration: none;
+  width: 10vw !important;
 }
 
 #section1 a:hover {
