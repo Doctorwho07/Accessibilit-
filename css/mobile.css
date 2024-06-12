@@ -128,4 +128,7 @@
   #donate {
     padding: 10vh 5vw !important;
   }
+  a {
+    max-width: 40vw;
+  }
 }
