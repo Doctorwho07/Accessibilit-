@@ -69,3 +69,8 @@ body {
 #section1 .contact-button:hover {
   background-color: #004d00;
 }
+.short-url {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

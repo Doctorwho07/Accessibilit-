@@ -18,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll(".short-url");
   links.forEach((link) => {
     const url = link.href;
-    if (url.length > 25) {
+    const linkWidth = link.offsetWidth;
+    const linkTextWidth = link.scrollWidth;
+    if (linkTextWidth > linkWidth) {
       link.textContent = url.slice(0, 25) + "...";
     }
   });
