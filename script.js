@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll(".short-url");
   links.forEach((link) => {
     const url = link.href;
-    if (url.length > 30) {
-      link.textContent = url.slice(0, 30) + "...";
+    if (url.length > 20) {
+      link.textContent = url.slice(0, 20) + "...";
     }
   });
 });
