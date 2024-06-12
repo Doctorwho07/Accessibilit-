@@ -32,7 +32,7 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
+header ul {
   display: flex;
   list-style-type: none;
   margin-left: 25vw;
