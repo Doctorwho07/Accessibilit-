@@ -10,6 +10,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/le-projet.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/don.css" />
     <title>
       Accès appareils médicaux pour enfants au Salvador - A.M.A.R. | Association
       pour la mobilité, l'accessibilité et la réhabilitation
@@ -17,37 +20,38 @@
   </head>
   <body>
     <header id="main-header">
-      <a href="/" aria-label="Accueil">
-        <img src="assets/icon-logo.png" alt="Logo Amar" />
-      </a>
-      <nav>
-        <ul class="navbar" role="navigation" aria-label="Menu principal">
-          <li>
-            <a href="/">Accueil</a>
-          </li>
-          <li><a href="a-propos.html">À propos</a></li>
-          <li>
-            <a
-              style="text-decoration: underline; color: rgb(29, 172, 155)"
-              href="/le-projet.html"
-              >Le Projet</a
-            >
-          </li>
-          <li><a href="contact.html">Contact</a></li>
-          <li>
-            <div class="dropdown-container">
-              <label hidden for="language-selector"
-                >Choisissez une langue :</label
+      <a href="/"><img src="assets/icon-logo.png" alt="Logo Amar" /></a>
+      <div class="navbar">
+        <button class="burger-menu" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <nav class="nav-links">
+          <ul>
+            <li>
+              <a href="/">Accueil</a>
+            </li>
+            <li><a href="a-propos.html">A propos</a></li>
+            <li>
+              <a
+                style="text-decoration: underline; color: rgb(29, 172, 155)"
+                href="/le-projet.html"
+                >Le Projet</a
               >
-              <select id="language-selector">
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <div class="dropdown-container">
+              <select
+                id="language-selector"
+                aria-label="Choisir une langue avec la touche espace:"
+              >
                 <option value="fr">Français</option>
                 <option value="en">English</option>
                 <option value="es">Español</option>
               </select>
             </div>
-          </li>
-        </ul>
-      </nav>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section id="section1">
@@ -136,20 +140,29 @@
       <section id="section4">
         <h2>Soutenez-les</h2>
         <p>Vous voulez faire partie de l'aventure ?</p>
-        <button>Faire un Don</button>
+        <button aria-label="Cliquez ici pour faire un don">Faire un Don</button>
       </section>
     </main>
-    <footer>
+    <footer role="contentinfo" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="visually-hidden" style="display: none">
+        Pied de page
+      </h2>
       <div class="footer">
-        <img src="/assets/icon-logo.png" alt="Logo Amar" />
-        <p>
-          Association pour la Mobilité, l'Accessibilité et la Réhabilitation
-        </p>
-        <p>
-          <a href="mailto:contact@amar-handicap.org"
+        <div class="gauche-footer">
+          <img src="/assets/icon-logo.png" alt="" />
+          <p>
+            Association pour la Mobilité, l'Accessibilité et la Réhabilitation
+          </p>
+        </div>
+        <div class="r">
+          <a href="accessibilite.html">Accessibilité</a>
+          <a href="mentions-legales">Mentions légales</a>
+          <a
+            aria-label="Cliquez pour écrire un mail"
+            href="mailto:contact@amar-handicap.org"
             >contact@amar-handicap.org</a
           >
-        </p>
+        </div>
       </div>
     </footer>
     <script src="/script.js"></script>
