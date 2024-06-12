@@ -5,6 +5,7 @@ header img {
 
 header {
   padding: 10px 15vw;
+  top: 0;
   width: 100vw;
   height: 10vh;
   position: fixed;
@@ -18,44 +19,44 @@ header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
-a,
-select {
+header a,
+header select {
   text-decoration: none;
   color: #5c2483;
   font-weight: 300;
   text-wrap: nowrap;
 }
 
-a:hover {
+header a:hover {
   color: rgb(29, 172, 155);
   text-decoration: underline;
 }
 
-ul {
+header ul {
   display: flex;
   list-style-type: none;
   margin-left: 25vw;
 }
 
-li,
-.dropdown-container {
+header li,
+header .dropdown-container {
   margin: 0 32px;
 }
 
-.dropdown-container {
+header .dropdown-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
 }
 
-select {
+header select {
   text-align: center;
   border: none;
   cursor: pointer;
   background-color: #e7f3e9;
 }
-.burger-menu {
+header .burger-menu {
   display: none;
   font-size: 30px;
   background: none;
@@ -63,6 +64,6 @@ select {
   cursor: pointer;
 }
 
-.nav-links {
+header .nav-links {
   display: flex;
 }
