@@ -131,4 +131,8 @@
   .short-url::after {
     content: "…";
   }
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
 }
