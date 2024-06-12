@@ -1,12 +1,10 @@
-
 img {
   filter: none !important;
 }
 
 #section1,
 #section2,
-#section3,
-#section4 {
+#section3 {
   padding: 10vh 15vw;
 }
 
@@ -27,18 +25,6 @@ img {
   background-color: #e7f3e9;
 }
 
-h1 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 2.2em;
-  font-weight: 700;
-  color: #5c2483;
-  margin: 2%;
-}
-h2 {
-  color: #5c2483;
-  font-size: 2.2em;
-  font-weight: 700;
-}
 .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -76,12 +62,7 @@ h2 {
   width: 100%;
   margin: 20px 0;
 }
-p {
-  line-height: 2em;
-  font-weight: thin;
-  color: #5c2483;
-  margin-bottom: 1em;
-}
+
 #section3 h2 {
   margin-bottom: 3%;
 }

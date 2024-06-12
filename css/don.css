@@ -3,10 +3,10 @@
   color: white;
 }
 #section4 button {
-  font-size: 0.8em;
+  font-size: 1em;
   letter-spacing: 1px;
   font-weight: thin;
-  padding: 1% 2%;
+  padding: 2% 5%;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10vh 15vw;
 }
 #section4 h2 {
   color: white;
