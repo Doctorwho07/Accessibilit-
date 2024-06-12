@@ -27,15 +27,17 @@
         <nav class="nav-links">
           <ul>
             <li>
-              <a
-                style="text-decoration: underline; color: rgb(29, 172, 155)"
-                href="/"
-                >Accueil</a
-              >
+              <a href="/">Accueil</a>
             </li>
             <li><a href="a-propos.html">A propos</a></li>
             <li><a href="le-projet.html">Le projet</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a
+                style="text-decoration: underline; color: rgb(29, 172, 155)"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
             <div class="dropdown-container">
               <select
                 id="language-selector"
@@ -74,8 +76,9 @@
             >Exemple: Dupont</small
           >
         </div>
+
         <div class="form-group">
-          <label aria-hidden="true"
+          <label for="prénom" aria-hidden="true"
             >Prénom <span aria-hidden="true">*</span></label
           >
           <input
@@ -90,6 +93,7 @@
             >Exemple: Jean</small
           >
         </div>
+
         <div class="form-group">
           <label for="email" aria-hidden="true"
             >Email <span aria-hidden="true">*</span></label
