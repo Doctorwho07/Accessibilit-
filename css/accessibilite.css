@@ -50,7 +50,6 @@ body {
 #section1 a {
   color: #006400;
   text-decoration: none;
-  width: 10vw !important;
 }
 
 #section1 a:hover {
@@ -69,4 +68,8 @@ body {
 
 #section1 .contact-button:hover {
   background-color: #004d00;
+}
+
+.short-url::after {
+  content: "…";
 }

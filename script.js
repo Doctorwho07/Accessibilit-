@@ -14,3 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
     navLinks.classList.toggle("active");
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll(".short-url");
+  links.forEach((link) => {
+    const url = link.href;
+    if (url.length > 30) {
+      link.textContent = url.slice(0, 30) + "...";
+    }
+  });
+});
