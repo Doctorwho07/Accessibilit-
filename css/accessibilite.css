@@ -69,7 +69,3 @@ body {
 #section1 .contact-button:hover {
   background-color: #004d00;
 }
-
-.short-url::after {
-  content: "…";
-}
