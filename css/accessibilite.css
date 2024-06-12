@@ -11,7 +11,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 80vw;
 }
 
 #section1 h1 {
@@ -68,4 +68,9 @@ body {
 
 #section1 .contact-button:hover {
   background-color: #004d00;
+}
+.short-url {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
