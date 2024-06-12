@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/mobile.css" />
+    <link rel="stylesheet" href="/css/don.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/general.css" />
+    <title>Accueil</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <a href="/"><img src="assets/icon-logo.png" alt="Logo Amar" /></a>
+      <div class="navbar">
+        <button class="burger-menu" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <nav class="nav-links">
+          <ul>
+            <li>
+              <a
+                style="text-decoration: underline; color: rgb(29, 172, 155)"
+                href="/"
+                >Accueil</a
+              >
+            </li>
+            <li><a href="a-propos.html">A propos</a></li>
+            <li><a href="le-projet.html">Le projet</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <div class="dropdown-container">
+              <select
+                id="language-selector"
+                aria-label="Choisir une langue avec la touche espace:"
+              >
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+              </select>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="contact">
+      <h2>
+        Vous souhaitez soutenir notre projet ou avoir plus d'informations ?
+      </h2>
+      <form action="" aria-labelledby="contact-heading">
+        <div>
+          <label for="nom">Nom <span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            aria-required="true"
+            required
+          />
+        </div>
+        <div>
+          <label for="prenom">Prénom <span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="prenom"
+            name="prenom"
+            aria-required="true"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            aria-required="true"
+            required
+          />
+        </div>
+        <div>
+          <label for="message">Message <span aria-hidden="true">*</span></label>
+          <textarea
+            id="message"
+            name="message"
+            aria-required="true"
+            required
+          ></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Envoyer" />
+        </div>
+      </form>
+    </section>
+
+    <section id="section4">
+      <h2>Soutenez-les</h2>
+      <p>Vous voulez faire partie de l'aventure ?</p>
+      <button aria-label="Cliquez ici pour faire un don">Faire un Don</button>
+    </section>
+    <footer role="contentinfo" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="visually-hidden" style="display: none">
+        Pied de page
+      </h2>
+      <div class="footer">
+        <div class="gauche-footer">
+          <img src="/assets/icon-logo.png" alt="" />
+          <p>
+            Association pour la Mobilité, l'Accessibilité et la Réhabilitation
+          </p>
+        </div>
+        <div class="r">
+          <a href="accessibilite.html">Accessibilité</a>
+          <a href="mentions-legales">Mentions légales</a>
+          <a
+            aria-label="Cliquez pour écrire un mail"
+            href="mailto:contact@amar-handicap.org"
+            >contact@amar-handicap.org</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
