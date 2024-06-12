@@ -190,13 +190,15 @@
         </div>
       </div>
     </section>
-    <section id="donate">
+    <section id="section4">
+      <h2>Soutenez-les</h2>
       <p>Vous voulez faire partie de l'aventure ?</p>
-      <h3>Soutenez-les</h3>
-      <button>Faire un Don</button>
+      <button aria-label="Cliquez ici pour faire un don">Faire un Don</button>
     </section>
-    <script src="/script.js"></script>
-    <footer>
+    <footer role="contentinfo" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" class="visually-hidden" style="display: none">
+        Pied de page
+      </h2>
       <div class="footer">
         <div class="gauche-footer">
           <img src="/assets/icon-logo.png" alt="" />
@@ -204,9 +206,17 @@
             Association pour la Mobilité, l'Accessibilité et la Réhabilitation
           </p>
         </div>
-
-        <p>contact@amar-handicap.org</p>
+        <div class="r">
+          <a href="accessibilite.html">Accessibilité</a>
+          <a href="mentions-legales">Mentions légales</a>
+          <a
+            aria-label="Cliquez pour écrire un mail"
+            href="mailto:contact@amar-handicap.org"
+            >contact@amar-handicap.org</a
+          >
+        </div>
       </div>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
