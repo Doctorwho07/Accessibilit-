@@ -1,9 +1,10 @@
-#section1 {
+#title {
   background-color: #e7f3e9;
-  padding: 10vh 15vw;
-  margin-top: 5vh;
+  padding: 20vh 15vw 10vh 15vw;
+  height: fit-content;
 }
 #orga {
+  height: fit-content;
   background-color: #e7f3e9;
   padding: 12vh 15vw;
 }
@@ -44,6 +45,7 @@ h6 {
 .images img {
   width: 200px;
   height: auto;
+  margin: 5%;
 }
 .sectiongrid {
   margin: 5%;
