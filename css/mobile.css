@@ -135,4 +135,13 @@
     display: flex;
     flex-direction: column;
   }
+  .sectiongrid {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    flex-direction: column;
+  }
+  .texte {
+    width: 100%;
+  }
 }
