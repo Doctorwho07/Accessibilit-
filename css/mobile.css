@@ -131,4 +131,22 @@
   .short-url::after {
     content: "…";
   }
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectiongrid {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    flex-direction: column;
+  }
+  .texte {
+    width: 100%;
+  }
+  .images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

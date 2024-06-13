@@ -1,215 +1,52 @@
-/* Styles généraux */
-* {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  font-family: "DM Sans", sans-serif;
+#title {
+  background-color: #e7f3e9;
+  padding: 20vh 15vw 10vh 15vw;
+  height: fit-content;
 }
-
-body {
-  overflow-x: hidden;
+#orga {
+  height: fit-content;
+  background-color: #e7f3e9;
+  padding: 12vh 15vw;
 }
-
-a,
-select {
-  text-decoration: none;
+.textes p {
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #1dac9b;
+}
+h5 {
+  color: #1dac9b;
+}
+.line {
+  display: flex;
+  align-items: center;
+}
+h6 {
   color: #5c2483;
-  font-weight: 300;
-  text-wrap: nowrap;
+  margin-left: 2%;
 }
-
-a:hover {
-  color: rgb(29, 172, 155);
-  text-decoration: underline;
-}
-
-header img {
-  width: 112px;
-  height: 92px;
-}
-
-header {
-  padding: 1% 15vw;
-  width: 100%;
-  position: fixed;
+.test {
   display: flex;
-  align-items: center;
-  background-color: #e7f3e9;
-  transition: box-shadow 0.3s;
-}
-
-.header-shadow {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  margin-left: 25vw;
-}
-
-li,
-.dropdown-container {
-  margin: 0 32px;
-}
-
-.dropdown-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
-}
-
-select {
-  text-align: center;
-  border: none;
-  cursor: pointer;
-  background-color: #e7f3e9;
-}
-
-#section1,
-#section2,
-#section3,
-#section4 {
-  padding: 10vh 15vw;
-}
-
-#section1 {
-  padding-top: 500px;
-  background-color: #e7f3e9;
-  height: 107vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-#section2 {
-  background-color: white;
-  display: flex;
+.texte {
+  width: 60%;
 }
-
-#section3 {
-  background-color: #e7f3e9;
-}
-
-#section4 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer {
-  background-color: #e7f3e9;
-  padding: 2vh 15vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-footer img {
-  width: 100px; /* Ajustez la taille selon vos besoins */
-}
-
-footer p {
-  margin-left: 20px; /* Ajustez la marge selon vos besoins */
-}
-
-h1 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 2.2em;
-  font-weight: 700;
-  color: #5c2483;
-  margin: 2%;
-}
-
-h2 {
-  color: #5c2483;
-  font-size: 2.2em;
-  font-weight: 700;
-}
-
-p {
-  line-height: 2em;
-  font-weight: thin;
-  color: #5c2483;
-  margin-bottom: 1em;
-}
-
-#section3 .gauche {
-  display: flex;
-  width: 40%;
-  margin-right: 50%;
-}
-
-#section3 h2 {
-  margin-bottom: 3%;
-}
-
-#section3 .droite {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 50%;
-}
-
-#section3 img {
-  width: 300px;
-  height: 300px;
-  margin: 0 10%;
-}
-
-#section3 p {
-  font-size: 0.9em;
-  line-height: 1.5em;
-  width: 70vw;
-}
-
-#section4 p {
-  color: black;
-}
-
-#section4 button {
-  font-size: 0.8em;
-  letter-spacing: 1px;
-  font-weight: thin;
-  padding: 1% 2%;
-  border-radius: 10px;
-  border: none;
-  color: white;
-  background-color: #1dac9b;
-}
-
 .title {
   display: flex;
-  justify-content: space-between;
-  align-items: center; /* Centrer les éléments verticalement */
+  justify-content: space-around;
 }
-
-.title > div {
-  flex: 1 0 50%; /* Cela signifie que cet élément occupera 50% de l'espace disponible */
-}
-
-.title > span {
-  margin-left: auto; /* Cet élément occupera l'espace restant */
-}
-
-.title > span > strong {
-  margin-top: 20px; /* Ajustez cette valeur en fonction de combien vous voulez déplacer le texte vers le bas */
-}
-
 .images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .images img {
   width: 200px;
   height: auto;
-  margin: 50px;
+  margin: 5%;
 }
-
 .sectiongrid {
   margin: 5%;
   display: grid;
@@ -227,98 +64,4 @@ p {
 
 .sectiongrid p {
   font-size: 14px;
-}
-
-#section4 p {
-  text-align: center;
-  color: white;
-}
-#section4 button {
-  font-size: 1em;
-  letter-spacing: 1px;
-  font-weight: thin;
-  padding: 2% 5%;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  color: #5c2483;
-  background-color: white;
-}
-#section4 {
-  background-color: #1dac9b;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10vh 15vw;
-}
-#section4 h2 {
-  color: white;
-}
-#section4 button:hover {
-  background-color: #5c2483;
-  color: white;
-}
-
-footer {
-  padding: 3vh 15vw;
-  background-color: #e7f3e9;
-}
-.footer {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-self: center;
-}
-.footer a {
-  height: fit-content;
-}
-.footer .r {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-/* Media Queries pour la réactivité */
-@media (max-width: 768px) {
-  .title {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .title > span {
-    margin-left: 0;
-    margin-top: 20px; /* Ajustez cette valeur selon vos besoins */
-  }
-
-  #section4 {
-    align-items: flex-start;
-    margin-top: 250vh; /* Ajustez cette valeur pour créer plus d'espace en haut */
-  }
-
-  footer {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  footer p {
-    margin-left: 0;
-    margin-top: 10px; /* Ajustez cette valeur selon vos besoins */
-  }
-
-  #section1 {
-    align-items: flex-start;
-    margin-top: 180vh;
-  }
-
-  .sectiongrid {
-    grid-template-columns: 1fr;
-  }
-
-  .images {
-    flex-direction: column;
-    align-items: center;
-  }
 }
