@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const linkWidth = link.offsetWidth;
     const linkTextWidth = link.scrollWidth;
     if (linkTextWidth > linkWidth) {
-      link.textContent = url.slice(0, 25) + "...";
+      link.textContent = url.slice(0, 20) + "...";
     }
   });
 });
