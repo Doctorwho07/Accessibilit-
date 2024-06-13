@@ -144,4 +144,9 @@
   .texte {
     width: 100%;
   }
+  .images {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
